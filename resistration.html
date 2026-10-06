@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register for Thanganat 5.0 | Swaminarayan University</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== SVG ICON SPRITE (navbar + footer icons use these) ========== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></symbol>
+    <symbol id="checkc" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></symbol>
+    <symbol id="cal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+    <symbol id="ticket" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/><path d="M13 5v2M13 11v2M13 17v2"/></symbol>
+    <symbol id="search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+    <symbol id="bell" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></symbol>
+    <symbol id="moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+    <symbol id="shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+  </svg>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <div class="wrap nav">
+      <!-- Apna logo yahan lagao -->
+      <a href="#"><img class="logo-img" alt="Logo" src="../images/Event-dark.png"></a>
+
+      <nav class="menu">
+        <a class="pill" href="#"><svg class="i"><use href="#home"/></svg>Home</a>
+        <a class="pill dark" href="../events/Event.html"><svg class="i"><use href="#checkc"/></svg>Events</a>
+        <a class="pill green" href="#"><svg class="i"><use href="#cal"/></svg>Thanganat 5.0</a>
+        <a class="pill" href="../MY-pass/my-pass.html"><svg class="i"><use href="#ticket"/></svg>My Passes</a>
+        <a class="pill" href="#"><svg class="i"><use href="#cal"/></svg>Calendar<span class="dot"></span></a>
+      </nav>
+
+      <div class="nav-r">
+        <a class="circle" aria-label="Search" href="#"><svg class="i"><use href="#search"/></svg></a>
+        <button class="circle" aria-label="Notifications"><svg class="i"><use href="#bell"/></svg><span class="ping"></span></button>
+        <button class="circle" aria-label="Theme"><svg class="i"><use href="#moon"/></svg></button>
+        <div class="user">
+          <img src="https://picsum.photos/seed/user1/60/60" alt="">
+          <div><b>Shivam Tripathi</b><small>Student</small></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== BREADCRUMB ========== -->
+  <div class="wrap">
+    <div class="topbar">
+      <i class="fa-solid fa-chevron-left topbar__back"></i>
+      <span class="topbar__brand">Thanganat 5.0</span>
+      <span class="topbar__divider">|</span>
+      <span class="topbar__current">Registration</span>
+    </div>
+  </div>
+
+  <main class="wrap page">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="hero__text">
+        <span class="hero__badge">
+          <i class="fa-solid fa-building-columns"></i>
+          Swaminarayan University &bull; Kalol Campus
+        </span>
+        <h1 class="hero__title">Register for <span>Thanganat 5.0</span></h1>
+        <p class="hero__desc">
+          Official entry clearance and digital RFID pass reservation for students,
+          faculty &amp; university guests for Thanganat 5.0 Grand Garba Night.
+        </p>
+      </div>
+
+      <div class="hero__meta">
+        <div class="meta-chip">
+          <i class="fa-regular fa-calendar"></i>
+          <span>Fri, 04 Oct 2024 &bull; 06:30 PM</span>
+        </div>
+        <div class="meta-chip">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Swaminarayan Stadium, Kalol</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="layout">
+
+      <!-- ========== LEFT COLUMN : FORM ========== -->
+      <form class="form" action="#" method="post">
+
+        <!-- 1. Student details -->
+        <section class="section">
+          <div class="section__head">
+            <h2 class="section__title">
+              <i class="fa-regular fa-id-card"></i>
+              1. Student &amp; Attendee Details
+            </h2>
+            <span class="verified">
+              <i class="fa-solid fa-circle-check"></i> Verified SU Scholar Account
+            </span>
+          </div>
+
+          <div class="grid-2">
+            <div class="field">
+              <label class="field__label" for="fullName">Full Name</label>
+              <div class="input">
+                <i class="fa-regular fa-user input__icon"></i>
+                <input id="fullName" type="text" value="Shivam Tripathi" readonly>
+              </div>
+              <small class="field__hint">Linked to University Master ERP Registry</small>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="enrollment">Enrollment / Scholar Number</label>
+              <div class="input">
+                <i class="fa-solid fa-hashtag input__icon"></i>
+                <input id="enrollment" type="text" value="SU202204192" readonly>
+                <span class="input__tag">B.Tech IT</span>
+              </div>
+              <small class="field__hint">Constituent College: IT &amp; Engineering Kalol</small>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="mobile">Mobile Number (SMS Pass Link)</label>
+              <div class="input input--active">
+                <i class="fa-solid fa-phone input__icon input__icon--gold"></i>
+                <input id="mobile" type="tel" value="+91 98765 43210">
+              </div>
+              <small class="field__hint">Instant WhatsApp Pass &amp; Entry Gate (SMS) updates</small>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="email">Official University Email ID</label>
+              <div class="input">
+                <i class="fa-regular fa-envelope input__icon"></i>
+                <input id="email" type="email" value="shivam.tripathi@swaminarayanuniversity.ac.in" readonly>
+              </div>
+              <small class="field__hint">Digital PDF ticket dispatch destination</small>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. Pass tier -->
+        <section class="section">
+          <div class="section__head">
+            <div>
+              <h2 class="section__title">
+                <i class="fa-solid fa-ticket"></i>
+                2. Choose Your Pass Tier
+              </h2>
+              <p class="section__sub">Select an accessories curated for campus festivities</p>
+            </div>
+            <span class="status-pill">
+              <i class="fa-solid fa-bolt"></i> Tier Allocation Active
+            </span>
+          </div>
+
+          <div class="tiers">
+
+            <article class="tier">
+              <h3 class="tier__label">General Entry</h3>
+              <h4 class="tier__name">Normal Pass</h4>
+              <p class="tier__price">&#8377;599</p>
+              <ul class="tier__list">
+                <li><i class="fa-solid fa-circle-check"></i> General garba &amp; student area access</li>
+                <li><i class="fa-solid fa-circle-check"></i> Standard refreshments food voucher</li>
+                <li><i class="fa-solid fa-circle-check"></i> RFID physical wristband for entry</li>
+              </ul>
+              <button type="button" class="btn btn--outline">Select Tier</button>
+            </article>
+
+            <article class="tier tier--featured">
+              <span class="tier__ribbon">Most Popular</span>
+              <span class="tier__radio tier__radio--on"></span>
+              <h3 class="tier__label tier__label--gold">Stage Arena Access</h3>
+              <h4 class="tier__name">VIP Pass</h4>
+              <p class="tier__price">&#8377;1,199 <del>&#8377;1,499</del></p>
+              <ul class="tier__list">
+                <li><i class="fa-solid fa-star"></i> VIP Stage Arena front dancing ring</li>
+                <li><i class="fa-solid fa-bolt"></i> FastScan Express Entry Gate (Zero Queue)</li>
+                <li><i class="fa-solid fa-utensils"></i> Unlimited festive dinner buffet &amp; drinks</li>
+                <li><i class="fa-solid fa-snowflake"></i> FastPass AI-conditioned lounge access</li>
+                <li><i class="fa-solid fa-camera"></i> Digital high-res event photograph pack</li>
+              </ul>
+              <button type="button" class="btn btn--gold">Selected Pass</button>
+            </article>
+
+            <article class="tier">
+              <h3 class="tier__label">External Visitor</h3>
+              <h4 class="tier__name">Guest Pass</h4>
+              <p class="tier__price">&#8377;1,999</p>
+              <ul class="tier__list">
+                <li><i class="fa-solid fa-user-group"></i> Non-university external guest entry</li>
+                <li><i class="fa-solid fa-circle-check"></i> All General &amp; Premium zones inclusion</li>
+                <li><i class="fa-solid fa-car"></i> Dedicated VIP parking permit</li>
+                <li><i class="fa-solid fa-champagne-glasses"></i> Gala reception dinner banquet access</li>
+              </ul>
+              <button type="button" class="btn btn--outline">Select Tier</button>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- 3. Accompanying guest -->
+        <section class="section">
+          <div class="section__head">
+            <div>
+              <h2 class="section__title">
+                <i class="fa-solid fa-user-plus"></i>
+                3. Accompanying Guest Option
+              </h2>
+              <p class="section__sub">Include friends or family members under your scholar sponsorship</p>
+            </div>
+          </div>
+
+          <div class="guest-box">
+            <label class="switch">
+              <input type="checkbox">
+              <span class="switch__track"></span>
+            </label>
+            <div>
+              <p class="guest-box__title">Bringing an Accompanying Guest? (Optional)</p>
+              <p class="guest-box__sub">Add up to 3 guests. Each guest will receive their own individual QR entry pass.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. Payment -->
+        <section class="section">
+          <div class="section__head">
+            <div>
+              <h2 class="section__title">
+                <i class="fa-regular fa-credit-card"></i>
+                4. Select Payment Method
+              </h2>
+              <p class="section__sub">Encrypted secure checkout through University Finance Gateway</p>
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <label class="pay pay--active">
+              <i class="fa-solid fa-qrcode pay__icon pay__icon--gold"></i>
+              <div class="pay__body">
+                <p class="pay__title">UPI / QR Code <span class="pay__badge">Drive-Pay</span></p>
+                <p class="pay__sub">Google Pay, PhonePe, Paytm, BHIM</p>
+                <p class="pay__note">Instant Pass Generation + 0% Surcharge</p>
+              </div>
+              <span class="tier__radio tier__radio--on"></span>
+            </label>
+
+            <label class="pay">
+              <i class="fa-solid fa-wallet pay__icon"></i>
+              <div class="pay__body">
+                <p class="pay__title">Campus Scholar Wallet</p>
+                <p class="pay__sub">Deduct from university smart card</p>
+                <p class="pay__balance">Available: &#8377;9,450.00</p>
+              </div>
+              <span class="tier__radio"></span>
+            </label>
+
+            <label class="pay">
+              <i class="fa-regular fa-credit-card pay__icon"></i>
+              <div class="pay__body">
+                <p class="pay__title">Credit &amp; Debit Card</p>
+                <p class="pay__sub">Visa, Mastercard, RuPay &amp; Diners</p>
+                <p class="pay__note pay__note--muted">Domestic cards supported</p>
+              </div>
+            </label>
+
+            <label class="pay">
+              <i class="fa-solid fa-building-columns pay__icon"></i>
+              <div class="pay__body">
+                <p class="pay__title">Net Banking</p>
+                <p class="pay__sub">SBI, HDFC, ICICI, Axis &amp; 40+ banks</p>
+                <p class="pay__note pay__note--muted">Secure bank redirection</p>
+              </div>
+            </label>
+          </div>
+        </section>
+
+      </form>
+
+      <!-- ========== RIGHT COLUMN : SUMMARY ========== -->
+      <aside class="summary">
+
+        <div class="summary__card">
+          <div class="summary__head">
+            <h2 class="summary__title"><i class="fa-solid fa-receipt"></i> Booking Order Summary</h2>
+            <span class="summary__ref">REF: #TK-054</span>
+          </div>
+
+          <div class="event">
+            <div class="event__thumb"></div>
+            <div>
+              <p class="event__label">Official Flagship Festival</p>
+              <h3 class="event__name">Thanganat 5.0 Mega Garba</h3>
+              <p class="event__venue">Swaminarayan Cricket Stadium, Kalol</p>
+            </div>
+          </div>
+
+          <dl class="rows">
+            <div class="row">
+              <dt>VIP Pass &times; 1 <small>(Selected)</small></dt>
+              <dd>&#8377;1,199</dd>
+            </div>
+            <div class="row row--green">
+              <dt>Cultural Council Subsidy</dt>
+              <dd>&minus;&#8377;200</dd>
+            </div>
+            <div class="row">
+              <dt>Campus Security &amp; RFID Fee</dt>
+              <dd class="row__free">FREE (SU Scholar)</dd>
+            </div>
+          </dl>
+
+          <div class="total">
+            <div>
+              <p class="total__label">Total Payable Amount</p>
+              <p class="total__note">Inclusive of festival taxes paid</p>
+            </div>
+            <p class="total__amount">&#8377;999</p>
+          </div>
+
+          <ul class="perks">
+            <li><i class="fa-solid fa-lock"></i> 256-bit Secure Campus Payment Gateway</li>
+            <li><i class="fa-solid fa-qrcode"></i> Instant QR Pass added to Apple/Google Wallet</li>
+            <li><i class="fa-solid fa-rotate-left"></i> Full refund available until 03 Oct, 11:59 PM</li>
+          </ul>
+
+          <button type="submit" class="btn btn--gold btn--cta">
+            Confirm Registration &amp; Pay &#8377;999 <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+          <p class="help">
+            Need assistance? Call SU Student Affairs Desk:
+            <a href="tel:+912764260100">+91 (2764) 260100</a>
+          </p>
+        </div>
+
+        <div class="reminder">
+          <h3 class="reminder__title"><i class="fa-solid fa-circle-info"></i> Entry Protocol Reminders</h3>
+          <p>
+            Dress Code: Traditional Garba attire (Kurta / Chaniya Choli) mandatory.
+            Physical University Scholar RFID cards must be shown along with the
+            dynamic QR mobile pass at Gate 1.
+          </p>
+        </div>
+
+      </aside>
+    </div>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="f-grid">
+
+        <div>
+          <a href="#"><img class="logo-img sm" alt="Logo" src="images/Event-dark.png"></a>
+          <p class="f-about">
+            The official cultural and academic event gateway for Swaminarayan University.
+            Discover symposiums, hackathons, and galas in one luminous collective.
+          </p>
+          <span class="f-badge">
+            <svg class="i"><use href="#shield"/></svg>
+            Official Institutional Gateway &bull; Kalol Campus
+          </span>
+        </div>
+
+        <div>
+          <h6>Quick Shortcuts</h6>
+          <ul>
+            <li>Home</li>
+            <li>Explore Events</li>
+            <li>My Passes &amp; Bookings</li>
+            <li>Wishlist Saved</li>
+            <li>Scholar Profile &amp; ID</li>
+          </ul>
+        </div>
+
+        <div>
+          <h6>Campus Headquarters</h6>
+          <p class="addr">
+            <svg class="i"><use href="#pin"/></svg>
+            <span>Swaminarayan University Campus, Ahmedabad-Mehsana Highway, At &amp; Po. Saij, Kalol, Dist. Gandhinagar, Gujarat - 382721</span>
+          </p>
+          <a class="mail" href="mailto:events@swaminarayanuniversity.in">
+            <svg class="i"><use href="#mail"/></svg>
+            events@swaminarayanuniversity.in
+          </a>
+        </div>
+
+        <div>
+          <h6>Stay Informed</h6>
+          <p>Receive exclusive ticket invitations and gala notifications directly to your inbox.</p>
+          <div class="sub">
+            <input type="email" placeholder="university email">
+            <button type="button">JOIN</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="copy">
+        <span>Engineered &amp; Managed by <b>RenderX Limited</b></span>
+        <span>&copy; 2026 <b>RenderX Limited</b>. All rights reserved.</span>
+        <nav>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Help Center</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
